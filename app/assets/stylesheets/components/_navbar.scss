@@ -1,6 +1,14 @@
 .navbar-lewagon {
+  margin: 0 10vw;
+  position: absolute;
+  top: 1.6vh;
   justify-content: space-between;
-  background: white;
+  background: none;
+  width: -webkit-fill-available;
+  border-bottom: solid 1px #004766;
+  a {
+    color: $white;
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
