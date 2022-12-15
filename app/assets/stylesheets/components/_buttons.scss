@@ -1,0 +1,31 @@
+.my-btn {
+  border: none;
+  background: linear-gradient(#3a362c, #000000);
+  border-radius: 4px;
+  padding: 6px 12px;
+  width: fit-content;
+  height: fit-content;
+  font-family: roboto condensed;
+  color: $white;
+  font-weight: 100;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-align: center;
+  transition: ease .3s;
+}
+.my-btn:hover {
+  font-size: 1.1em;
+  color: $black;
+  background: linear-gradient(#ff8400, #ffd500);
+  transition: ease .3s;
+}
+.my-btn a {
+  font-family: roboto condensed;
+  color: $white;
+  text-decoration: none;
+}
+.my-btn a:hover {
+  font-size: 1.1em;
+  color: $black;
+  transition: ease .3s;
+}
