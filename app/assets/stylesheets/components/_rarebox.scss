@@ -1,15 +1,41 @@
-.footerbox {
-  width: 100vw;
+.pagebox {
+  margin-top: 1vh;
+  .titlebox {
+    position: relative;
+    line-height: 1px;
+    text-align: left;
+    h1 {
+      color: white;
+      font-weight: 100;
+    }
+    p {
+      color: $canard;
+      letter-spacing: 0.2em;
+    }
+  }
+}
+.pdfbox{
   position: absolute;
-  bottom: -0.6vh;
+  bottom: 40vh;
+  right: -108px;
+  width: 190px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row-reverse;
   align-items: center;
-  a {
-    color: $yellow;
-    font-size: 2.3em;
+  text-align: center;
+  background: linear-gradient(270deg, darkcyan, rgba(0, 139, 139, 0), rgba(0, 139, 139, 0));
+  padding: 6px;
+  font-weight: 200;
+  line-height: 1.2em;
+  border-radius: 4px;
+  transition: ease .3s;
+  p {
+    margin-left: 6px;
   }
-  a:hover {
-    color: $blue;
-  }
+}
+.pdfbox:hover {
+  color: white;
+  right: 0px;
+  font-weight: 400;
 }
