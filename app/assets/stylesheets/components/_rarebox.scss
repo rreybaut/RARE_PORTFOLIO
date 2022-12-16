@@ -3,7 +3,7 @@
   .titlebox {
     position: relative;
     line-height: 1px;
-    text-align: left;
+    text-align: center;
     h1 {
       color: white;
       font-weight: 100;
@@ -16,8 +16,8 @@
 }
 .pdfbox{
   position: absolute;
-  bottom: 40vh;
-  right: -108px;
+  bottom: 1.4vh;
+  right: -110px;
   width: 190px;
   display: flex;
   justify-content: center;
