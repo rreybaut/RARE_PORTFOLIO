@@ -1,6 +1,10 @@
 .pagebox {
   margin-top: 1vh;
   .titlebox {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
     position: relative;
     line-height: 1px;
     text-align: center;
