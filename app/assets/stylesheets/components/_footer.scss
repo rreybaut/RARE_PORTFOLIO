@@ -1,18 +1,24 @@
 .footerbox {
-  width: 100vw;
+  width: 100%;
+  height: 44vh;
   position: absolute;
-  bottom: 0.4vh;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   line-height: 0em;
+  background-image: asset-url("footer_img.png");
+  background-size: cover;
+  background-position: top;
+  justify-content: flex-end;
+  align-items: center;
   a {
-    color: $canard;
+    color: $blue;
     font-size: 2.3em;
   }
   a:hover {
-    color: $blue;
+    color: $yellow;
   }
 }
 .footerlinks {
+  // rien pour l'instant
 }
