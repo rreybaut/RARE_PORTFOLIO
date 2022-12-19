@@ -47,7 +47,7 @@
 			display: block;
 			width: inherit;
 			height: inherit;
-			background: url('https://cdn.dribbble.com/users/5031/screenshots/7008431/dribbble.png');
+			background: asset-url("cube-cryoform.png");
 			position: absolute;
 			-webkit-transform-style: preserve-3d;
 			        transform-style: preserve-3d;
@@ -62,14 +62,14 @@
 
 			.slide.x:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/730703/screenshots/6988911/elenidebo-thisiscolossal-theroad-forchicagodesignmuseum.jpg');
+				background-image: asset-url("cube-hr.png");
 				-webkit-transform: translateZ(100px) rotateZ(-90deg);
 				        transform: translateZ(100px) rotateZ(-90deg);
 			}
 
 			.slide.x:before {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/329207/screenshots/6220354/bemocs_geneseo_sailing.jpg');
+				background-image: asset-url("cube-lebanon.png");
 				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 				        transform: translateZ(-100px) rotateZ(-90deg);
 			}
@@ -81,14 +81,14 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/63407/screenshots/5705689/dribbble_moonlight_2x.png');
+				background-image: asset-url("cube-vistaculture.png");
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
 			}
 
 			.slide.y:before {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/1355613/screenshots/6441984/landscape_2x.jpg');
+				background-image: asset-url("cube-octo.png");
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -100,7 +100,7 @@
 
 			.slide.z:after {
 				content: '';
-				background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/7013817/the_caravan_by_patryk_wojciechowicz_2x.png');
+				background-image: asset-url("cube-spritz.png");
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
